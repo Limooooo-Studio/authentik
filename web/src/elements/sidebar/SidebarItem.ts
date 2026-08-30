@@ -22,6 +22,7 @@ export interface SidebarItemProperties {
     activeWhen?: string[];
     expanded?: boolean | null;
     enterprise?: boolean;
+    absoluteLink?: boolean;
 }
 
 @customElement("ak-sidebar-item")
