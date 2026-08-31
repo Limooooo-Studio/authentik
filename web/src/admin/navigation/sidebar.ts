@@ -61,7 +61,7 @@ export const createAdminSidebarEntries = (): readonly SidebarEntry[] => [
     ],
     [null, msg("Applications"), null, [
         ["/core/applications", msg("Applications"), [`^/core/applications/(?<slug>${SLUG_REGEX})$`]],
-        ["https://identity.limooo.cn/sink", msg("Sink"), { "?absolute-link": true }],
+        ["https://admin.limooo.cn/sink", msg("Sink"), { "?absolute-link": true }],
         ["/core/providers", msg("Providers"), [`^/core/providers/(?<id>${ID_REGEX})$`]],
         ["/outpost/outposts", msg("Outposts"), [`^/outpost/outposts/(?<id>${UUID_REGEX})$`]],
         ["/requests/rules", msg("Request Rules"), {enterprise:true}],
